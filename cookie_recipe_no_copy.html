@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Favorite Chocolate Chip Cookie Recipe</title>
+    <style>
+        /* Disable text selection */
+        body {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+    </style>
+    <script>
+        // Disable right-click context menu
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+            alert('Right-click is disabled. Please type the code yourself!');
+            return false;
+        });
+
+        // Disable copying with Ctrl+C or Cmd+C
+        document.addEventListener('copy', function(e) {
+            e.preventDefault();
+            alert('Copying is disabled. Please type the code yourself!');
+            return false;
+        });
+
+        // Disable cutting with Ctrl+X or Cmd+X
+        document.addEventListener('cut', function(e) {
+            e.preventDefault();
+            alert('Cutting is disabled. Please type the code yourself!');
+            return false;
+        });
+
+        // Disable specific keyboard shortcuts
+        document.addEventListener('keydown', function(e) {
+            // Disable Ctrl+C, Ctrl+X, Ctrl+A, Ctrl+U, F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+Shift+C
+            if (
+                (e.ctrlKey && (e.key === 'c' || e.key === 'C')) ||
+                (e.ctrlKey && (e.key === 'x' || e.key === 'X')) ||
+                (e.ctrlKey && (e.key === 'a' || e.key === 'A')) ||
+                (e.ctrlKey && (e.key === 'u' || e.key === 'U')) ||
+                (e.metaKey && (e.key === 'c' || e.key === 'C')) ||
+                (e.metaKey && (e.key === 'x' || e.key === 'X')) ||
+                (e.metaKey && (e.key === 'a' || e.key === 'A')) ||
+                e.key === 'F12' ||
+                (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'i')) ||
+                (e.ctrlKey && e.shiftKey && (e.key === 'J' || e.key === 'j')) ||
+                (e.ctrlKey && e.shiftKey && (e.key === 'C' || e.key === 'c'))
+            ) {
+                e.preventDefault();
+                alert('This shortcut is disabled. Please type the code yourself!');
+                return false;
+            }
+        });
+
+        // Disable text selection on mouse drag
+        document.addEventListener('selectstart', function(e) {
+            e.preventDefault();
+            return false;
+        });
+    </script>
+</head>
+<body>
+
+    <h1>The Ultimate Chocolate Chip Cookies</h1>
+    
+    <p><strong>Prep Time:</strong> 15 minutes<br>
+    <strong>Bake Time:</strong> 12 minutes<br>
+    <strong>Total Time:</strong> 27 minutes</p>
+    
+    <hr>
+    
+    <h2>Why These Cookies Are <em>Amazing</em></h2>
+    
+    <p>These chocolate chip cookies are <strong>absolutely delicious</strong> and perfect for any occasion. They're crispy on the outside, <em>soft and chewy</em> on the inside, and packed with chocolate chips!</p>
+    
+    <hr>
+    
+    <h2>Ingredients</h2>
+    
+    <h3>Dry Ingredients:</h3>
+    <ul>
+        <li>2 cups all-purpose flour
+            <ul>
+                <li>You can use regular or whole wheat</li>
+                <li>Make sure it's fresh (not expired)</li>
+            </ul>
+        </li>
+        <li>1 teaspoon baking soda</li>
+        <li>1 teaspoon salt
+            <ul>
+                <li>Sea salt works best</li>
+                <li>Regular table salt is also fine</li>
+            </ul>
+        </li>
+        <li>2 cups chocolate chips
+            <ul>
+                <li>Semi-sweet is traditional</li>
+                <li>Dark chocolate is also delicious</li>
+                <li>Milk chocolate for sweeter cookies</li>
+            </ul>
+        </li>
+    </ul>
+    
+    <h3>Wet Ingredients:</h3>
+    <ul>
+        <li>1 cup butter (softened)
+            <ul>
+                <li>Leave at room temperature for 30 minutes</li>
+                <li>Should be soft but not melted</li>
+            </ul>
+        </li>
+        <li>3/4 cup white sugar</li>
+        <li>3/4 cup brown sugar
+            <ul>
+                <li>Light brown or dark brown both work</li>
+            </ul>
+        </li>
+        <li>2 eggs
+            <ul>
+                <li>Large eggs are best</li>
+                <li>Room temperature eggs mix better</li>
+            </ul>
+        </li>
+        <li>2 teaspoons vanilla extract</li>
+    </ul>
+    
+    <hr>
+    
+    <h2>Instructions</h2>
+    
+    <ol>
+        <li>Preheat your oven to 375°F (190°C)
+            <ul>
+                <li>Make sure the oven rack is in the middle position</li>
+                <li>Remove any other items from the oven</li>
+            </ul>
+        </li>
+        <li>Mix the butter and both sugars together until <em>creamy and smooth</em>
+            <ul>
+                <li>This should take about 3-4 minutes</li>
+                <li>Use an electric mixer if you have one</li>
+            </ul>
+        </li>
+        <li>Add eggs and vanilla extract to the butter mixture
+            <ul>
+                <li>Add one egg at a time</li>
+                <li>Mix well after each egg</li>
+            </ul>
+        </li>
+        <li>In a separate bowl, combine:
+            <ul>
+                <li>Flour
+                    <ul>
+                        <li>Measure carefully</li>
+                        <li>Spoon it into the measuring cup</li>
+                    </ul>
+                </li>
+                <li>Baking soda</li>
+                <li>Salt
+                    <ul>
+                        <li>Mix these dry ingredients together first</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Slowly add the dry ingredients to the wet ingredients
+            <ul>
+                <li>Add a little at a time</li>
+                <li>Mix on low speed</li>
+                <li>Stop mixing when just combined</li>
+            </ul>
+        </li>
+        <li>Fold in the chocolate chips
+            <ul>
+                <li>Use a spoon or spatula</li>
+                <li>Don't overmix</li>
+            </ul>
+        </li>
+        <li>Drop spoonfuls of dough onto a <strong>greased</strong> baking sheet
+            <ul>
+                <li>Leave 2 inches between each cookie</li>
+                <li>Use a cookie scoop for uniform size</li>
+            </ul>
+        </li>
+        <li>Bake for 10-12 minutes or until golden brown
+            <ul>
+                <li>Watch carefully during the last 2 minutes</li>
+                <li>Edges should be golden</li>
+                <li>Centers may look slightly underdone</li>
+            </ul>
+        </li>
+        <li>Let cool for 5 minutes before eating
+            <ul>
+                <li>Use a spatula to transfer to a cooling rack</li>
+                <li>Be careful - they're hot!</li>
+            </ul>
+        </li>
+    </ol>
+    
+    <hr>
+    
+    <h2>Fun Facts About Chocolate Chip Cookies</h2>
+    
+    <ul>
+        <li>The chocolate chip cookie was invented in 1938 by Ruth Wakefield
+            <ul>
+                <li>She owned the Toll House Inn in Massachusetts</li>
+                <li>She expected the chocolate to melt completely</li>
+                <li>Instead, the chocolate chips held their shape!</li>
+            </ul>
+        </li>
+        <li>Americans eat over <strong>7 billion</strong> chocolate chip cookies per year!
+            <ul>
+                <li>That's about 21 cookies per person</li>
+                <li>The average American family makes cookies 3 times per month</li>
+            </ul>
+        </li>
+        <li>The chemical formula for chocolate is C<sub>7</sub>H<sub>8</sub>N<sub>4</sub>O<sub>2</sub>
+            <ul>
+                <li>This is actually the formula for theobromine</li>
+                <li>Theobromine is the main compound in chocolate</li>
+            </ul>
+        </li>
+        <li>The world's largest chocolate chip cookie weighed over 40,000 pounds
+            <ul>
+                <li>It was made in 2003</li>
+                <li>It was 102 feet wide</li>
+                <li>It used 30,000 eggs!</li>
+            </ul>
+        </li>
+    </ul>
+    
+    <hr>
+    
+    <h2>Pro Tips</h2>
+    
+    <ol>
+        <li><strong>Don't overmix</strong> the dough - this makes cookies tough
+            <ul>
+                <li>Mix until ingredients are just combined</li>
+                <li>Overmixing develops gluten</li>
+            </ul>
+        </li>
+        <li>Use room temperature ingredients for <em>best results</em>
+            <ul>
+                <li>Butter should be soft</li>
+                <li>Eggs should not be cold from the fridge</li>
+            </ul>
+        </li>
+        <li>Try these variations:
+            <ul>
+                <li>Add 1 cup of chopped nuts
+                    <ul>
+                        <li>Walnuts are classic</li>
+                        <li>Pecans add a buttery flavor</li>
+                    </ul>
+                </li>
+                <li>Mix in 1/2 cup of peanut butter chips
+                    <ul>
+                        <li>Combine with chocolate chips</li>
+                        <li>Or use instead of chocolate chips</li>
+                    </ul>
+                </li>
+                <li>Sprinkle sea salt on top before baking
+                    <ul>
+                        <li>Use flaky sea salt</li>
+                        <li>Just a small pinch on each cookie</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Cookies continue to cook after you remove them from the oven
+            <ul>
+                <li>They will firm up as they cool</li>
+                <li>Don't overbake or they'll be too hard</li>
+            </ul>
+        </li>
+        <li>Store in an airtight container for up to 1 week
+            <ul>
+                <li>Layer with parchment paper</li>
+                <li>Keep at room temperature</li>
+                <li>Don't refrigerate - this makes them dry</li>
+            </ul>
+        </li>
+    </ol>
+    
+    <hr>
+    
+    <h2>Nutrition Information</h2>
+    
+    <p><strong>Per Cookie (makes 48 cookies):</strong></p>
+    
+    <ul>
+        <li>Calories: 150</li>
+        <li>Fat: 8g
+            <ul>
+                <li>Saturated fat: 5g</li>
+                <li>Unsaturated fat: 3g</li>
+            </ul>
+        </li>
+        <li>Carbohydrates: 20g
+            <ul>
+                <li>Dietary fiber: 1g</li>
+                <li>Sugars: 12g</li>
+            </ul>
+        </li>
+        <li>Protein: 2g</li>
+        <li>Sodium: 150mg</li>
+    </ul>
+    
+    <p><em>Note: Nutritional values are approximate</em></p>
+    
+    <hr>
+    
+    <h3>Temperature Conversion</h3>
+    
+    <p>375°F = 190°C = 463K<br>
+    (K stands for Kelvin, the scientific temperature scale)</p>
+    
+    <p>Formula: °C = (°F - 32) × 5/9</p>
+    
+    <hr>
+    
+    <h4>Mathematical Note:</h4>
+    
+    <p>If the recipe makes 48 cookies and you want to make only 24 cookies, you need to multiply each ingredient by 1/2 or 0.5</p>
+    
+    <p>Example: 2 cups flour × 1/2 = 1 cup flour</p>
+    
+    <hr>
+    
+    <h5>Did You Know?</h5>
+    
+    <p>The chocolate chip cookie is the <strong>official state cookie</strong> of both Massachusetts and Pennsylvania!</p>
+    
+    <hr>
+    
+    <h6>Created by: [Your Name]</h6>
+    <h6>Date: [Today's Date]</h6>
+
+</body>
+</html>
